@@ -25,18 +25,9 @@ The pipeline incorporates:
   - **ML Pipelines:** MLflow for model tracking and feature store integration  
   - **BI & Dashboarding:** Grafana dashboards provide real-time insights
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)](https://spark.apache.org/)
-[![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)](https://kafka.apache.org/)
-[![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)](https://airflow.apache.org/)
-[![MinIO](https://img.shields.io/badge/MinIO-00C7F7?style=for-the-badge&logo=minio&logoColor=white)](https://min.io/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/)
-[![MLflow](https://img.shields.io/badge/MLflow-02569B?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org/)
-[![Feast](https://img.shields.io/badge/Feast-0B8B8D?style=for-the-badge&logo=feast&logoColor=white)](https://feast.dev/)
-[![Apache Atlas](https://img.shields.io/badge/Apache%20Atlas-2F4B8F?style=for-the-badge&logo=apache-atlas&logoColor=white)](https://atlas.apache.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/) [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/) [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/) [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/) [![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)](https://airflow.apache.org/) [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)](https://spark.apache.org/) [![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white)](https://flink.apache.org/) [![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)](https://kafka.apache.org/) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/) [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/) [![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)](https://www.influxdata.com/) [![MinIO](https://img.shields.io/badge/MinIO-CF2A27?style=for-the-badge&logo=minio&logoColor=white)](https://min.io/) [![AWS S3](https://img.shields.io/badge/AWS%20S3-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/s3/) [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/) [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/) [![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)](https://www.elastic.co/) [![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org/) [![Feast](https://img.shields.io/badge/Feast-FF6F00?style=for-the-badge&logo=feast&logoColor=white)](https://feast.dev/) [![Great Expectations](https://img.shields.io/badge/Great%20Expectations-1A1A1A?style=for-the-badge&logo=great-expectations&logoColor=white)](https://greatexpectations.io/) [![Apache Atlas](https://img.shields.io/badge/Apache%20Atlas-1E1E1E?style=for-the-badge&logo=apache&logoColor=white)](https://atlas.apache.org/) [![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://www.tableau.com/) [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)](https://powerbi.microsoft.com/) [![Looker](https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)](https://looker.com/)
 
+Read this README and follow the step-by-step guide to set up the pipeline on your local machine or cloud environment. Customize the pipeline components, configurations, and example applications to suit your data processing needs.
 
 ## Table of Contents
 
@@ -47,82 +38,81 @@ The pipeline incorporates:
 5. [Configuration & Customization](#configuration--customization)
 6. [Example Applications](#example-applications)
 7. [Troubleshooting & Further Considerations](#troubleshooting--further-considerations)
-8. [License](#license)
-
----
+8. [Contributing](#contributing)
+9. [License](#license)
+10. [Final Notes](#final-notes)
 
 ## Architecture Overview
 
 ### Text-Based Pipeline Diagram
 
 ```
-                              ┌─────────────────────────────┐
-                              │         Batch Source        │
-                              │         (MySQL, Files)      │
-                              └────────────┬──────────────┘
-                                           │
-                                           │  (Extract/Validate)
-                                           ▼
-                           ┌────────────────────────────────┐
-                           │      Airflow Batch DAG         │
-                           │ - Extracts data from MySQL     │
-                           │ - Validates with Great Expectations
-                           │ - Uploads raw data to MinIO     │
-                           └────────────┬───────────────────┘
-                                        │ (spark-submit)
-                                        ▼
-                           ┌────────────────────────────────┐
-                           │         Spark Batch Job        │
-                           │ - Reads raw CSV from MinIO     │
-                           │ - Transforms, cleans, enriches  │
-                           │ - Writes transformed data to  │
-                           │   PostgreSQL & MinIO           │
-                           └────────────┬───────────────────┘
-                                        │
-                                        ▼
-                           ┌────────────────────────────────┐
-                           │       Processed Data Store     │
-                           │         (PostgreSQL)           │
-                           └────────────────────────────────┘
+                            ┌────────────────────────────────┐
+                            │         Batch Source           │
+                            │         (MySQL, Files)         │
+                            └────────────────┬───────────────┘
+                                             │
+                                             │  (Extract/Validate)
+                                             ▼
+                           ┌─────────────────────────────────────┐
+                           │      Airflow Batch DAG              │
+                           │ - Extracts data from MySQL          │
+                           │ - Validates with Great Expectations │
+                           │ - Uploads raw data to MinIO         │
+                           └─────────────────┬───────────────────┘
+                                             │ (spark-submit)
+                                             ▼
+                             ┌────────────────────────────────┐
+                             │         Spark Batch Job        │
+                             │ - Reads raw CSV from MinIO     │
+                             │ - Transforms, cleans, enriches │
+                             │ - Writes transformed data to   │
+                             │   PostgreSQL & MinIO           │
+                             └──────────────┬─────────────────┘
+                                            │
+                                            ▼
+                             ┌────────────────────────────────┐
+                             │       Processed Data Store     │
+                             │         (PostgreSQL)           │
+                             └────────────────────────────────┘
                                         
 Streaming Side:
                               ┌─────────────────────────────┐
                               │       Streaming Source      │
                               │         (Kafka)             │
-                              └────────────┬──────────────┘
+                              └────────────┬────────────────┘
                                            │
                                            ▼
-                           ┌────────────────────────────────┐
-                           │    Spark Streaming Job         │
-                           │ - Consumes Kafka messages      │
-                           │ - Filters and detects anomalies│
-                           │ - Persists anomalies to         │
-                           │   PostgreSQL & MinIO           │
-                           └────────────────────────────────┘
+                           ┌───────────────────────────────────┐
+                           │    Spark Streaming Job            │
+                           │ - Consumes Kafka messages         │
+                           │ - Filters and detects anomalies   │
+                           │ - Persists anomalies to           │
+                           │   PostgreSQL & MinIO              │
+                           └───────────────────────────────────┘
 
 Monitoring & Governance:
-                              ┌─────────────────────────────┐
-                              │       Monitoring &           │
-                              │  Data Governance Layer       │
-                              │ - Prometheus & Grafana       │
-                              │ - Apache Atlas / OpenMetadata│
-                              └─────────────────────────────┘
+                              ┌────────────────────────────────┐
+                              │       Monitoring &             │
+                              │  Data Governance Layer         │
+                              │ - Prometheus & Grafana         │
+                              │ - Apache Atlas / OpenMetadata  │
+                              └────────────────────────────────┘
                                         
 ML & Serving:
-                              ┌─────────────────────────────┐
+                              ┌──────────────────────────────┐
                               │        AI/ML Serving         │
                               │ - Feature Store (Feast)      │
                               │ - MLflow Model Tracking      │
-                              │ - BI Dashboards             │
-                              └─────────────────────────────┘
+                              │ - BI Dashboards              │
+                              └──────────────────────────────┘
 ```
-
----
 
 ## Directory Structure
 
 ```
 end-to-end-pipeline/
+  ├── .devcontainer/                 # VS Code Dev Container settings
   ├── docker-compose.yaml            # Docker orchestration for all services
   ├── README.md                      # Comprehensive documentation (this file)
   ├── airflow/
@@ -153,8 +143,6 @@ end-to-end-pipeline/
       └── init_db.sql                # SQL script to initialize MySQL and demo data
 ```
 
----
-
 ## Components & Technologies
 
 - **Ingestion & Orchestration:**  
@@ -177,8 +165,6 @@ end-to-end-pipeline/
   - [Feast](https://feast.dev/) – Feature store for machine learning.
   - [BI Tools](https://grafana.com/) – Real-time dashboards and insights.
 
----
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -199,8 +185,8 @@ end-to-end-pipeline/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-repo/end-to-end-pipeline.git
-   cd end-to-end-pipeline
+   git clone https://github.com/hoangsonww/End-to-End-Data-Pipeline.git
+   cd End-to-End-Data-Pipeline
    ```
 
 2. **Start the Pipeline Stack**
@@ -251,7 +237,7 @@ end-to-end-pipeline/
    - Use `ml/mlflow_tracking.py` to simulate model training and tracking.
    - Use `ml/feature_store_stub.py` to integrate with a feature store like Feast.
 
----
+Be sure to visit the files and scripts in the repository and change the credentials, configurations, and logic to match your environment and use case. Feel free to extend the pipeline with additional components, services, or integrations as needed.
 
 ## Configuration & Customization
 
@@ -272,8 +258,6 @@ end-to-end-pipeline/
 
 - **Governance & ML:**  
   Replace stub implementations in `governance/atlas_stub.py` and `ml/` with real integrations as needed.
-
----
 
 ## Example Applications
 
@@ -307,7 +291,7 @@ end-to-end-pipeline/
 - **Ad Fraud Detection:**  
   Identify and block fraudulent clicks on digital advertisements.
 
----
+Feel free to use this pipeline as a starting point for your data processing needs. Extend it with additional components, services, or integrations to build a robust, end-to-end data platform.
 
 ## Troubleshooting & Further Considerations
 
@@ -320,13 +304,20 @@ end-to-end-pipeline/
 - **Resource Constraints:**  
   For production use, consider scaling out services (e.g., running Spark on a dedicated cluster, using managed Kafka).
 
----
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+6. We will review your changes and merge them into the main branch upon approval.
 
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
----
 
 ## Final Notes
 
@@ -334,4 +325,6 @@ This end-to-end data pipeline is designed for rapid deployment and customization
 
 ---
 
-[*Back to top*](#end-to-end-data-pipeline)
+Thanks for reading! If you found this repository helpful, please star it and share it with others. For questions, feedback, or suggestions, feel free to reach out to me on [GitHub](https://github.com/hoangsonww).
+
+[**⬆️ Back to top**](#end-to-end-data-pipeline)
