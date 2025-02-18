@@ -30,7 +30,7 @@ The pipeline incorporates:
   - **Container Orchestration:** Kubernetes with Argo CD for GitOps deployment
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/) [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/) [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/) [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/) [![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)](https://airflow.apache.org/) [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)](https://spark.apache.org/) [![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white)](https://flink.apache.org/) [![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)](https://kafka.apache.org/) [![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-EC1D24?style=for-the-badge&logo=apachehadoop&logoColor=white)](https://hadoop.apache.org/)
- [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/) [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/) [![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)](https://www.influxdata.com/) [![MinIO](https://img.shields.io/badge/MinIO-CF2A27?style=for-the-badge&logo=minio&logoColor=white)](https://min.io/) [![AWS S3](https://img.shields.io/badge/AWS%20S3-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/s3/) [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/) [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/) [![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)](https://www.elastic.co/) [![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org/) [![Feast](https://img.shields.io/badge/Feast-FF6F00?style=for-the-badge&logo=feast&logoColor=white)](https://feast.dev/) [![Great Expectations](https://img.shields.io/badge/Great%20Expectations-1A1A1A?style=for-the-badge&logo=great-expectations&logoColor=white)](https://greatexpectations.io/) [![Apache Atlas](https://img.shields.io/badge/Apache%20Atlas-1E1E1E?style=for-the-badge&logo=apache&logoColor=white)](https://atlas.apache.org/) [![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://www.tableau.com/) [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)](https://powerbi.microsoft.com/) [![Looker](https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)](https://looker.com/)
+ [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/) [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/) [![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)](https://www.influxdata.com/) [![MinIO](https://img.shields.io/badge/MinIO-CF2A27?style=for-the-badge&logo=minio&logoColor=white)](https://min.io/) [![AWS S3](https://img.shields.io/badge/AWS%20S3-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/s3/) [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/) [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/) [![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)](https://www.elastic.co/) [![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org/) [![Feast](https://img.shields.io/badge/Feast-FF6F00?style=for-the-badge&logo=feast&logoColor=white)](https://feast.dev/) [![Great Expectations](https://img.shields.io/badge/Great%20Expectations-1A1A1A?style=for-the-badge&logo=great-expectations&logoColor=white)](https://greatexpectations.io/) [![Apache Atlas](https://img.shields.io/badge/Apache%20Atlas-1E1E1E?style=for-the-badge&logo=apache&logoColor=white)](https://atlas.apache.org/) [![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://www.tableau.com/) [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)](https://powerbi.microsoft.com/) [![Looker](https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)](https://looker.com/) [![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/) [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
 
 Read this README and follow the step-by-step guide to set up the pipeline on your local machine or cloud environment. Customize the pipeline components, configurations, and example applications to suit your data processing needs.
 
@@ -49,12 +49,22 @@ Read this README and follow the step-by-step guide to set up the pipeline on you
 
 ## Architecture Overview
 
+The architecture of the end-to-end data pipeline is designed to handle both batch and streaming data processing. Below is a high-level overview of the components and their interactions:
+
+### Flow Diagram
+
+<p align="center">
+  <img src="assets/architecture_diagram.png" alt="Architecture Diagram" width="100%"/>
+</p>
+
+> Note: The diagram may not reflect ALL components in the repository, but it provides a good overview of the main components and their interactions. For instance, I added BI tools like Tableau, Power BI, and Looker to the repo for data visualization and reporting.
+
 ### Text-Based Pipeline Diagram
 
 ```
                             ┌────────────────────────────────┐
                             │         Batch Source           │
-                            │         (MySQL, Files)         │
+                            │(MySQL, Files, User Interaction)│
                             └────────────────┬───────────────┘
                                              │
                                              │  (Extract/Validate)
@@ -78,7 +88,13 @@ Read this README and follow the step-by-step guide to set up the pipeline on you
                                             ▼
                              ┌────────────────────────────────┐
                              │       Processed Data Store     │
-                             │         (PostgreSQL)           │
+                             │ (PostgreSQL, MongoDB, AWS S3)  │
+                             └───────────────┬────────────────┘
+                                             │ (Query/Analyze)
+                                             ▼
+                             ┌────────────────────────────────┐
+                             │         Cache & Indexing       │
+                             │     (Elasticsearch, Redis)     │
                              └────────────────────────────────┘
                                         
 Streaming Side:
@@ -109,6 +125,7 @@ ML & Serving:
                               │        AI/ML Serving         │
                               │ - Feature Store (Feast)      │
                               │ - MLflow Model Tracking      │
+                              │ - Model training & serving   │
                               │ - BI Dashboards              │
                               └──────────────────────────────┘
                               
@@ -126,6 +143,16 @@ Container Orchestration:
                               │ - Helm Charts for Deployment │
                               └──────────────────────────────┘
 ```
+
+### Full Flow Diagram with Backend & Frontend Integration (Optional)
+
+A more detailed flow diagram that includes backend and frontend integration is available in the `assets/` directory. This diagram illustrates how the data pipeline components interact with each other and with external systems, including data sources, storage, processing, visualization, and monitoring. 
+
+Although the frontend & backend integration is not included in this repository (since it's supposed to only contain the pipeline), you can easily integrate it with your existing frontend application or create a new one using popular frameworks like React, Angular, or Vue.js.
+
+<p align="center">
+  <img src="assets/full_flow_diagram.png" alt="Full Flow Diagram" width="100%"/>
+</p>
 
 ## Directory Structure
 
