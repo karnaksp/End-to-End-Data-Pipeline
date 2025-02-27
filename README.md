@@ -57,6 +57,8 @@ The architecture of the end-to-end data pipeline is designed to handle both batc
   <img src="assets/architecture_diagram.png" alt="Architecture Diagram" width="100%"/>
 </p>
 
+Basically, data will be streamed with Kafka, processed with Spark, and stored in a data w
+
 > Note: The diagram may not reflect ALL components in the repository, but it provides a good overview of the main components and their interactions. For instance, I added BI tools like Tableau, Power BI, and Looker to the repo for data visualization and reporting.
 
 ### Text-Based Pipeline Diagram
