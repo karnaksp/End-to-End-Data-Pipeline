@@ -57,9 +57,9 @@ The architecture of the end-to-end data pipeline is designed to handle both batc
   <img src="assets/architecture_diagram.png" alt="Architecture Diagram" width="100%"/>
 </p>
 
-Basically, data will be streamed with Kafka, processed with Spark, and stored in a data w
+Basically, data will be streamed with Kafka, processed with Spark, and stored in a data warehouse using PostgreSQL. The pipeline also integrates MinIO as an object storage solution and uses Airflow to orchestrate the end-to-end data flow. Great Expectations enforces data quality checks, while Prometheus and Grafana provide monitoring and alerting capabilities. MLflow and Feast are used for machine learning model tracking and feature store integration.
 
-> Note: The diagram may not reflect ALL components in the repository, but it provides a good overview of the main components and their interactions. For instance, I added BI tools like Tableau, Power BI, and Looker to the repo for data visualization and reporting.
+> Note: The diagram(s) may not reflect ALL components in the repository, but it provides a good overview of the main components and their interactions. For instance, I added BI tools like Tableau, Power BI, and Looker to the repo for data visualization and reporting.
 
 ### Text-Based Pipeline Diagram
 
