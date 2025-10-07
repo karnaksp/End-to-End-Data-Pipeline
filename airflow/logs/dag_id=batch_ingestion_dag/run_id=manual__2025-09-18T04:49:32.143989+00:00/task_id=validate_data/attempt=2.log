@@ -1,0 +1,30 @@
+[2025-09-18T04:54:41.079+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: batch_ingestion_dag.validate_data manual__2025-09-18T04:49:32.143989+00:00 [queued]>
+[2025-09-18T04:54:41.086+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: batch_ingestion_dag.validate_data manual__2025-09-18T04:49:32.143989+00:00 [queued]>
+[2025-09-18T04:54:41.086+0000] {taskinstance.py:2171} INFO - Starting attempt 2 of 2
+[2025-09-18T04:54:41.096+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): validate_data> on 2025-09-18 04:49:32.143989+00:00
+[2025-09-18T04:54:41.102+0000] {standard_task_runner.py:60} INFO - Started process 367 to run task
+[2025-09-18T04:54:41.105+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'batch_ingestion_dag', 'validate_data', 'manual__2025-09-18T04:49:32.143989+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/batch_ingestion_dag.py', '--cfg-path', '/tmp/tmpjg6qrwks']
+[2025-09-18T04:54:41.108+0000] {standard_task_runner.py:88} INFO - Job 4: Subtask validate_data
+[2025-09-18T04:54:41.146+0000] {task_command.py:423} INFO - Running <TaskInstance: batch_ingestion_dag.validate_data manual__2025-09-18T04:49:32.143989+00:00 [running]> on host ed313a361ec3
+[2025-09-18T04:54:41.206+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='batch_ingestion_dag' AIRFLOW_CTX_TASK_ID='validate_data' AIRFLOW_CTX_EXECUTION_DATE='2025-09-18T04:49:32.143989+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-18T04:49:32.143989+00:00'
+[2025-09-18T04:54:41.208+0000] {context_factory.py:398} INFO - Could not find local file-backed GX project
+[2025-09-18T04:54:41.208+0000] {base.py:1510} INFO - Created temporary directory '/tmp/tmpkej3pyr4' for ephemeral docs site
+[2025-09-18T04:54:41.209+0000] {config.py:191} INFO - Loading 'datasources' ->
+[]
+[2025-09-18T04:54:41.217+0000] {batch_ingestion_dag.py:61} INFO - Running Great Expectations validation on /tmp/orders.csv...
+[2025-09-18T04:54:41.229+0000] {batch_ingestion_dag.py:96} ERROR - Failed to validate data with Great Expectations: 'DataFrameAsset' object has no attribute 'build_batch_from_dataframe'
+[2025-09-18T04:54:41.229+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/batch_ingestion_dag.py", line 69, in validate_data_with_ge
+    context.data_sources.add_pandas("orders_source")
+AttributeError: 'DataFrameAsset' object has no attribute 'build_batch_from_dataframe'
+[2025-09-18T04:54:41.239+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=batch_ingestion_dag, task_id=validate_data, execution_date=20250918T044932, start_date=20250918T045441, end_date=20250918T045441
+[2025-09-18T04:54:41.248+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 4 for task validate_data ('DataFrameAsset' object has no attribute 'build_batch_from_dataframe'; 367)
+[2025-09-18T04:54:41.277+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-09-18T04:54:41.296+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

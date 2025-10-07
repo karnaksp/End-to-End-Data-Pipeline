@@ -1,0 +1,17 @@
+[2025-09-18T11:02:03.337+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: streaming_monitoring_dag.monitor_kafka_consumer_lag manual__2025-09-18T11:02:02.223021+00:00 [queued]>
+[2025-09-18T11:02:03.351+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: streaming_monitoring_dag.monitor_kafka_consumer_lag manual__2025-09-18T11:02:02.223021+00:00 [queued]>
+[2025-09-18T11:02:03.351+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2025-09-18T11:02:03.375+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): monitor_kafka_consumer_lag> on 2025-09-18 11:02:02.223021+00:00
+[2025-09-18T11:02:03.381+0000] {standard_task_runner.py:60} INFO - Started process 8061 to run task
+[2025-09-18T11:02:03.389+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'streaming_monitoring_dag', 'monitor_kafka_consumer_lag', 'manual__2025-09-18T11:02:02.223021+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/streaming_monitoring_dag.py', '--cfg-path', '/tmp/tmp9r2lr7v6']
+[2025-09-18T11:02:03.392+0000] {standard_task_runner.py:88} INFO - Job 18: Subtask monitor_kafka_consumer_lag
+[2025-09-18T11:02:03.476+0000] {task_command.py:423} INFO - Running <TaskInstance: streaming_monitoring_dag.monitor_kafka_consumer_lag manual__2025-09-18T11:02:02.223021+00:00 [running]> on host 3aa26d851e1b
+[2025-09-18T11:02:03.626+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='streaming_monitoring_dag' AIRFLOW_CTX_TASK_ID='monitor_kafka_consumer_lag' AIRFLOW_CTX_EXECUTION_DATE='2025-09-18T11:02:02.223021+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-18T11:02:02.223021+00:00'
+[2025-09-18T11:02:03.628+0000] {streaming_monitoring_dag.py:17} INFO - Simulating Kafka consumer lag monitoring...
+[2025-09-18T11:02:03.628+0000] {streaming_monitoring_dag.py:18} INFO - Would connect to Kafka broker: kafka:9092
+[2025-09-18T11:02:03.628+0000] {streaming_monitoring_dag.py:19} INFO - Would check consumer group: sensor_readings_consumer
+[2025-09-18T11:02:03.628+0000] {streaming_monitoring_dag.py:20} INFO - Monitoring completed successfully (simulation).
+[2025-09-18T11:02:03.628+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-09-18T11:02:03.649+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=streaming_monitoring_dag, task_id=monitor_kafka_consumer_lag, execution_date=20250918T110202, start_date=20250918T110203, end_date=20250918T110203
+[2025-09-18T11:02:03.681+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-09-18T11:02:03.723+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

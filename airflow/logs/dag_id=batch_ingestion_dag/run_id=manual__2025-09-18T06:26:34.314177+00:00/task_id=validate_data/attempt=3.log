@@ -1,0 +1,31 @@
+[2025-09-18T06:39:27.145+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: batch_ingestion_dag.validate_data manual__2025-09-18T06:26:34.314177+00:00 [queued]>
+[2025-09-18T06:39:27.151+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: batch_ingestion_dag.validate_data manual__2025-09-18T06:26:34.314177+00:00 [queued]>
+[2025-09-18T06:39:27.151+0000] {taskinstance.py:2171} INFO - Starting attempt 3 of 4
+[2025-09-18T06:39:27.160+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): validate_data> on 2025-09-18 06:26:34.314177+00:00
+[2025-09-18T06:39:27.167+0000] {standard_task_runner.py:60} INFO - Started process 663 to run task
+[2025-09-18T06:39:27.170+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'batch_ingestion_dag', 'validate_data', 'manual__2025-09-18T06:26:34.314177+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/batch_ingestion_dag.py', '--cfg-path', '/tmp/tmpizyvcu79']
+[2025-09-18T06:39:27.172+0000] {standard_task_runner.py:88} INFO - Job 14: Subtask validate_data
+[2025-09-18T06:39:27.212+0000] {task_command.py:423} INFO - Running <TaskInstance: batch_ingestion_dag.validate_data manual__2025-09-18T06:26:34.314177+00:00 [running]> on host 3aa26d851e1b
+[2025-09-18T06:39:27.272+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='batch_ingestion_dag' AIRFLOW_CTX_TASK_ID='validate_data' AIRFLOW_CTX_EXECUTION_DATE='2025-09-18T06:26:34.314177+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-18T06:26:34.314177+00:00'
+[2025-09-18T06:39:27.273+0000] {batch_ingestion_dag.py:57} INFO - Running Great Expectations validation...
+[2025-09-18T06:39:27.286+0000] {context_factory.py:398} INFO - Could not find local file-backed GX project
+[2025-09-18T06:39:27.287+0000] {base.py:1510} INFO - Created temporary directory '/tmp/tmpvl2_ao4l' for ephemeral docs site
+[2025-09-18T06:39:27.287+0000] {config.py:191} INFO - Loading 'datasources' ->
+[]
+[2025-09-18T06:39:27.328+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/15 [00:00<?, ?it/s]
+[2025-09-18T06:39:27.328+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/15 [00:00<?, ?it/s]
+[2025-09-18T06:39:27.328+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  13%|#3        | 2/15 [00:00<00:00, 3890.82it/s]
+[2025-09-18T06:39:27.329+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  13%|#3        | 2/15 [00:00<00:00, 2666.44it/s]
+[2025-09-18T06:39:27.329+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  20%|##        | 3/15 [00:00<00:00, 3376.15it/s]
+[2025-09-18T06:39:27.329+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  20%|##        | 3/15 [00:00<00:00, 2868.23it/s]
+[2025-09-18T06:39:27.330+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  40%|####      | 6/15 [00:00<00:00, 2715.05it/s]
+[2025-09-18T06:39:27.330+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  40%|####      | 6/15 [00:00<00:00, 2419.56it/s]
+[2025-09-18T06:39:27.332+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 15/15 [00:00<00:00, 3456.08it/s]
+[2025-09-18T06:39:27.332+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 15/15 [00:00<00:00, 3296.72it/s]
+[2025-09-18T06:39:27.332+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 15/15 [00:00<00:00, 3201.43it/s]
+[2025-09-18T06:39:27.333+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 15/15 [00:00<00:00, 3115.66it/s]
+[2025-09-18T06:39:27.341+0000] {batch_ingestion_dag.py:121} INFO - Great Expectations validations passed.
+[2025-09-18T06:39:27.342+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-09-18T06:39:27.350+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=batch_ingestion_dag, task_id=validate_data, execution_date=20250918T062634, start_date=20250918T063927, end_date=20250918T063927
+[2025-09-18T06:39:27.382+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-09-18T06:39:27.403+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

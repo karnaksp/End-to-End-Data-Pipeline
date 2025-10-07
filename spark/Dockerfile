@@ -1,7 +1,7 @@
 FROM bitnami/spark:3.3.2
 
 USER root
-RUN apt-get update && apt-get install -y python3 python3-pip
+RUN apt-get update && apt-get install -y python3 python3-pip wget
 RUN pip3 install boto3 pandas great_expectations
 
 # Add Kafka connector for Spark (for streaming)
